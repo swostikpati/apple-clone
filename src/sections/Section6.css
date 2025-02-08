@@ -1,0 +1,30 @@
+.section6 .battery-hero {
+  width: 100vw; /* Remove quotes */
+  height: 100vh; /* Remove quotes */
+  background-image: url("https://www.apple.com/v/macbook-pro/ao/images/overview/themes/battery/battery_hero__d5zgrstiu9si_xlarge.jpg");
+  background-size: cover; /* Remove quotes */
+  background-position: center; /* Remove quotes */
+  background-repeat: no-repeat; /* Remove quotes */
+  margin-top: 200px;
+}
+
+.section6 .text {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 25%;
+  margin-top: 200px;
+}
+
+.section6 .heading {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.section6 .subheading {
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
