@@ -1,13 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const FadeInWrapper = ({ children }) => {
+const FadeInWrapper = ({ children, className, delay = 0.2 }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 10 }} // Initial state: invisible and slightly below
-      animate={{ opacity: 1, y: -10 }} // Final state: visible and in place
-      transition={{ duration: 1, ease: "easeOut", delay: 0.8 }} // Animation duration and easing
-      style={{ overflow: "hidden" }} // Ensures content looks neat during the animation
+      whileInView={{ opacity: 1, y: 0 }} // Animate when in view
+      transition={{ duration: 1, ease: "easeOut", delay }} // Animation duration and easing
+      viewport={{ once: true, amount: 0.2 }} // Triggers once when 20% of the element is in view
+      className={className}
     >
       {children}
     </motion.div>

@@ -8,19 +8,19 @@
   padding-bottom: 100px;
 }
 
-.heading-container {
+.section3 .heading-container {
   margin-left: 100px;
   background-color: var(--dark-gray);
 }
 
-.heading {
+.section3 .heading {
   font-size: 56px;
   color: var(--white);
   font-weight: 500;
   text-align: center;
 }
 
-.parallax-scroll {
+.section3 .parallax-scroll {
   display: flex;
   flex-direction: row;
   scroll-snap-type: x mandatory;
@@ -32,7 +32,7 @@
   margin-left: 100px;
 }
 
-.parallax-item {
+.section3 .parallax-item {
   flex: 0 0 80vw;
   scroll-snap-align: start;
   display: flex;
@@ -44,7 +44,7 @@
   /* height: 100vh; */
 }
 
-.parallax-item img {
+.section3 .parallax-item img {
   width: 100%;
   border-radius: var(--corner-radius);
   transition: transform 0.5s ease-in-out;
@@ -55,9 +55,9 @@
 } */
 
 /* Smooth scrolling for browsers */
-.parallax-scroll {
+.section3 .parallax-scroll {
   scroll-behavior: smooth;
 }
-.parallax-scroll::-webkit-scrollbar {
+.section3 .parallax-scroll::-webkit-scrollbar {
   display: none; /* Hide scrollbar for Chrome, Safari, and Edge */
 }

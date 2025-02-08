@@ -6,7 +6,7 @@ import FadeInWrapper from "@/components/FadeInWrapper";
 export default function section1() {
   return (
     <div className="section1">
-      <FadeInWrapper>
+      <FadeInWrapper delay={0.8}>
         <div>
           <p className="heading"> MacBook Pro</p>
           <img
@@ -25,9 +25,9 @@ export default function section1() {
           />
         </video>
       </div>
-      <FadeInWrapper>
+      <FadeInWrapper delay={0.9}>
         <div className="bottom-hero">
-          <button class="buy-button">Buy</button>
+          <button className="buy-button">Buy</button>
 
           <p>From $1599 or $133.25/mo. for 12 mo.*</p>
           <p>Apple Intelligence Now Available</p>
