@@ -1,5 +1,6 @@
 import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import "./Section7.css";
 
 export default function Section7() {
   // Track the scroll progress
