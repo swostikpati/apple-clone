@@ -1,0 +1,63 @@
+.section3 {
+  background-color: var(--dark-gray);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 100px;
+}
+
+.heading-container {
+  margin-left: 100px;
+  background-color: var(--dark-gray);
+}
+
+.heading {
+  font-size: 56px;
+  color: var(--white);
+  font-weight: 500;
+  text-align: center;
+}
+
+.parallax-scroll {
+  display: flex;
+  flex-direction: row;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* height: 100vh; */
+  width: 100%;
+  position: relative;
+  margin-left: 100px;
+}
+
+.parallax-item {
+  flex: 0 0 80vw;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 90%;
+  margin-right: 100px;
+  /* height: 100vh; */
+}
+
+.parallax-item img {
+  width: 100%;
+  border-radius: var(--corner-radius);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* .parallax-item img:hover {
+  transform: scale(1.05);
+} */
+
+/* Smooth scrolling for browsers */
+.parallax-scroll {
+  scroll-behavior: smooth;
+}
+.parallax-scroll::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and Edge */
+}

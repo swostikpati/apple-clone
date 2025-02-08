@@ -1,0 +1,66 @@
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100vh;
+}
+.section1 .heading {
+  color: var(--white);
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section1 .apple-intel {
+  margin: -20% 0 -10% 0;
+}
+
+.section1 .video-container {
+  z-index: -1;
+  margin-top: -10%;
+}
+
+.section1 .buy-button {
+  /* margin-top: -20%; */
+  background-color: #007bff; /* Blue color */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 30px; /* Rounded corners */
+  padding: 11px 21px; /* Adjust size */
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.section1 .buy-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.section1 .buy-button:active {
+  background-color: #003f7f; /* Even darker blue when clicked */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow */
+}
+
+.section1 .bottom-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+.section1 .bottom-hero > p {
+  color: var(--gray);
+  font-weight: 500;
+  font-size: 21px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.section1 .bottom-hero > p:last-child {
+  font-size: 17px;
+}
