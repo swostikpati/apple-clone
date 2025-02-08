@@ -1,0 +1,18 @@
+.section7 .text {
+  display: flex;
+  color: var(--white);
+  flex-direction: column;
+  padding-left: 25%;
+  margin-top: 12%;
+}
+
+.section7 .heading {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.section7 .subheading {
+  font-size: 80px;
+  font-weight: 500;
+  margin-top: 0;
+}
