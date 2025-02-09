@@ -1,9 +1,13 @@
+.section7 {
+  margin-bottom: 10%;
+}
 .section7 .text {
   display: flex;
   color: var(--white);
   flex-direction: column;
   padding-left: 25%;
   margin-top: 12%;
+  margin-bottom: 30%;
 }
 
 .section7 .heading {
@@ -15,4 +19,17 @@
   font-size: 80px;
   font-weight: 500;
   margin-top: 0;
+}
+
+.section7 .desc {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 10%;
+  width: 42%;
+  padding-left: 25%;
+  color: var(--gray);
+}
+
+.section7 .highlight {
+  color: var(--white);
 }

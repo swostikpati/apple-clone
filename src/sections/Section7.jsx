@@ -26,6 +26,16 @@ export default function Section7() {
           scale, // Apply the dynamic scaling
         }}
       ></motion.div>
+      <p className="desc">
+        Go from the sunniest terrace to the darkest studio with more ease than
+        ever. The eye-popping
+        <br />
+        <span className="highlight">Liquid Retina XDR display</span> offers
+        1,600 nits peak HDR brightness and now provides up to 1,000 nits of
+        brightness for SDR content in bright light so you can see what’s on your
+        screen more clearly outside. In low-light situations, it dims to 1 nit
+        so you can work comfortably in darker spaces.
+      </p>
     </div>
   );
 }
