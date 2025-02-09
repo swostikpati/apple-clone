@@ -7,7 +7,7 @@ export default function Section7() {
   const { scrollYProgress } = useScroll();
 
   // Map scroll progress (0 → 1) to scale values (1.5 → 0.7)
-  const scale = useTransform(scrollYProgress, [0, 1], [6, 0.7]);
+  const scale = useTransform(scrollYProgress, [0, 1], [4, 0.2]);
   return (
     <div className="section7">
       <div className="text">
