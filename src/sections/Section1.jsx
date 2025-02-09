@@ -1,11 +1,12 @@
 import React from "react";
 import "./Section1.css";
-import appleImg from "@/assets/images/appleintel.png";
+import navbarImg from "@/assets/images/navbar.png";
 import FadeInWrapper from "@/components/FadeInWrapper";
 
 export default function section1() {
   return (
     <div className="section1">
+      <img src={navbarImg} alt="" className="navbar"></img>
       <FadeInWrapper delay={0.8}>
         <div>
           <p className="heading"> MacBook Pro</p>

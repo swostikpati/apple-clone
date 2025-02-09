@@ -4,7 +4,14 @@
   align-items: center;
   flex-direction: column;
 
-  height: 100vh;
+  /* height: 10vh; */
+  margin-bottom: 150px;
+}
+
+.section1 .navbar {
+  width: 65%;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 .section1 .heading {
   color: var(--white);
