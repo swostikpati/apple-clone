@@ -8,7 +8,7 @@ export default function Section8() {
       <div className="text">
         <p className="heading">CAMERAS, MICS, AND SPEAKERS</p>
         <p className="subheading">
-          Make it command <br /> Performance
+          Make it command <br /> Performance.
         </p>
 
         <FadeInWrapper>

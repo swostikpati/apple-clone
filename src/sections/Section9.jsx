@@ -11,7 +11,7 @@ export default function Section9() {
         <p className="heading">PORTS AND CONNECTIVITY</p>
         <p className="subheading">
           Make powerful
-          <br /> Connections
+          <br /> Connections.
         </p>
         <FadeInWrapper>
           <p className="desc">
@@ -31,7 +31,7 @@ export default function Section9() {
         </FadeInWrapper>
       </div>
 
-      <video width="100%" loop muted autoPlay alt="home intro video">
+      <video width="100%" muted autoPlay alt="home intro video">
         <source src={video} type="video/mp4" />
       </video>
       <FadeInWrapper className="desc-img-wrapper">

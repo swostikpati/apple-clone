@@ -15,7 +15,7 @@ export default function Section6() {
       </div>
       <motion.div
         initial={{ scale: 1.2 }} // Start at 100%
-        animate={{ scale: 1.5 }} // Animate to 120%
+        whileInView={{ scale: 1.5 }} // Animate to 120%
         transition={{ duration: 8, ease: "easeInOut" }} // 5 seconds, smooth transition
         className="battery-hero"
       ></motion.div>

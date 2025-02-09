@@ -7,7 +7,7 @@ export default function Section7() {
   const { scrollYProgress } = useScroll();
 
   // Map scroll progress (0 → 1) to scale values (1.5 → 0.7)
-  const scale = useTransform(scrollYProgress, [0, 1], [4, 0.2]);
+  const scale = useTransform(scrollYProgress, [0, 1], [2.7, 0.05]);
   return (
     <div className="section7">
       <div className="text">
@@ -22,7 +22,7 @@ export default function Section7() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          marginTop: "40vh",
+          marginTop: "100px",
           scale, // Apply the dynamic scaling
         }}
       ></motion.div>
